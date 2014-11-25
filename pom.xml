@@ -35,18 +35,43 @@
         </plugins>
     </build>
   
-    <distributionManagement>
-        <repository>
-            <id>snapshots</id>
-            <name>Systematic CVR snapshots repository</name>
-            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
-        </repository>
-        <snapshotRepository>
-            <id>releases</id>
-            <name>Systematic CVR release repository</name>
-            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
-        </snapshotRepository>
-    </distributionManagement>
+    <profiles>
+        <profile>
+            <id>systematic</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+
+            <distributionManagement>
+
+                <repository>
+                    <id>releases</id>
+                    <name>Systematic CVR release repository</name>
+                    <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+                </repository>
+
+                <snapshotRepository>
+                    <id>snapshots</id>
+                    <name>Systematic CVR snapshots repository</name>
+                    <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+                </snapshotRepository>
+
+            </distributionManagement>
+            
+        </profile>
+            
+        
+        
+        
+        
+    </profiles>
+        
+        
+  
+
+    <activeProfiles>
+      <activeProfile></activeProfile>
+    </activeProfiles>
 
     <!-- Der er også en:
     jboss-as-maven-plugin: https://docs.jboss.org/jbossas/7/plugins/maven/latest/
