@@ -5,12 +5,14 @@
     <artifactId>GitAndMavenSample</artifactId>
     <version>1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
+    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
     
+    <!-- Git repository to use when tagging new releases -->
     <scm>
         <connection>scm:git:git@github.com:casperbang/GitAndMavenSample.git</connection>
         <url>scm:git:git@github.com:casperbang/GitAndMavenSample.git</url>
@@ -27,4 +29,17 @@
         </plugins>
     </build>
   
+    <!--distributionManagement>
+        <repository>
+            <id>repo</id>
+            <name>Repository Name</name>
+            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>repo</id>
+            <name>Repository Name</name>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement-->
+
 </project>
