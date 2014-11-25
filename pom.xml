@@ -18,8 +18,7 @@
         <connection>scm:git:git@github.com:casperbang/GitAndMavenSample.git</connection>
         <url>scm:git:git@github.com:casperbang/GitAndMavenSample.git</url>
         <developerConnection>scm:git:git@github.com:casperbang/GitAndMavenSample.git</developerConnection>
-        <!--tag>GitAndMavenSample-1.8</tag-->
-      <tag>HEAD</tag>
+        <tag>HEAD</tag>
   </scm>
   
     <build>
@@ -37,7 +36,7 @@
   
     <profiles>
         <profile>
-            <id>systematic</id>
+            <id>nexus</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
@@ -66,7 +65,7 @@
         
     </profiles>
 
-
+    
     <!-- Der er også en:
     jboss-as-maven-plugin: https://docs.jboss.org/jbossas/7/plugins/maven/latest/
     RTC plugin: maven-scm-provider-jazz
