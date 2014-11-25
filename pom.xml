@@ -65,13 +65,7 @@
         
         
     </profiles>
-        
-        
-  
 
-    <activeProfiles>
-      <activeProfile></activeProfile>
-    </activeProfiles>
 
     <!-- Der er også en:
     jboss-as-maven-plugin: https://docs.jboss.org/jbossas/7/plugins/maven/latest/
