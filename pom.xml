@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.systematic</groupId>
     <artifactId>GitAndMavenSample</artifactId>
-    <version>1.8</version>
+    <version>1.9-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Git-Maven demo project</name>
     
@@ -19,7 +19,7 @@
         <url>scm:git:git@github.com:casperbang/GitAndMavenSample.git</url>
         <developerConnection>scm:git:git@github.com:casperbang/GitAndMavenSample.git</developerConnection>
         <!--tag>GitAndMavenSample-1.8</tag-->
-      <tag>GitAndMavenSample-1.8</tag>
+      <tag>HEAD</tag>
   </scm>
   
     <build>
