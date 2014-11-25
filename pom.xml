@@ -9,8 +9,8 @@
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
     </properties>
     
     <!-- Git repository to use when tagging new releases -->
@@ -18,7 +18,7 @@
         <connection>scm:git:git@github.com:casperbang/GitAndMavenSample.git</connection>
         <url>scm:git:git@github.com:casperbang/GitAndMavenSample.git</url>
         <developerConnection>scm:git:git@github.com:casperbang/GitAndMavenSample.git</developerConnection>
-        <tag>HEAD</tag>
+        <!--tag>GitAndMavenSample-1.8</tag-->
     </scm>
   
     <build>
