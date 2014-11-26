@@ -67,11 +67,11 @@
     </dependencyManagement-->
     
     <!-- Reposatory can ALSO be placed in project file rather than in settings.xml -->
-    <repositories>
+    <!--repositories>
         <repository>
             
         </repository>
-    </repositories>
+    </repositories-->
 
     
     <!-- Der er også en:
