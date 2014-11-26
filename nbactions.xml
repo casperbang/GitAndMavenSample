@@ -21,4 +21,11 @@
                 <goal>release:perform</goal>
             </goals>
         </action>
+        <action>
+            <actionName>CUSTOM-deploy snapshot to nexus snapshots</actionName>
+            <displayName>deploy snapshot to nexus snapshots</displayName>
+            <goals>
+                <goal>deploy</goal>
+            </goals>
+        </action>
     </actions>
