@@ -41,13 +41,15 @@
         <repository>
             <id>releases</id>
             <name>Systematic Releases Repository</name>
-            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+            <!--url>http://localhost:8081/nexus/content/repositories/releases/</url-->
+            <url>http://sv-proj-071:8081/nexus/content/repositories/releases/</url>
         </repository>
         
         <snapshotRepository>
             <id>snapshots</id>
             <name>Systematic Snapshots Repository</name>
-            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+            <!--url>http://localhost:8081/nexus/content/repositories/snapshots/</url-->
+            <url>http://sv-proj-071:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
         
     </distributionManagement>
