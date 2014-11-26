@@ -19,7 +19,7 @@
         <url>scm:git:git@github.com:casperbang/GitAndMavenSample.git</url>
         <developerConnection>scm:git:git@github.com:casperbang/GitAndMavenSample.git</developerConnection>
         <tag>HEAD</tag>
-  </scm>
+    </scm>
   
     <build>
         <plugins>
