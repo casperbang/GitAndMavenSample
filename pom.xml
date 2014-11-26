@@ -18,7 +18,6 @@
         <connection>scm:git:git@github.com:casperbang/GitAndMavenSample.git</connection>
         <url>scm:git:git@github.com:casperbang/GitAndMavenSample.git</url>
         <developerConnection>scm:git:git@github.com:casperbang/GitAndMavenSample.git</developerConnection>
-        <tag>GitAndMavenSample-1.14</tag>
     </scm>
   
     <build>
