@@ -43,10 +43,14 @@
             </plugin>
             
             <plugin>
-                <groupId>com.amashchenko.maven.plugin</groupId>
-                <artifactId>gitflow-maven-plugin</artifactId>
-                <version>1.0.6</version>
+                <groupId>external.atlassian.jgitflow</groupId>
+                <artifactId>jgitflow-maven-plugin</artifactId>
+                <version>1.0-m4.3</version>
+                <configuration>
+                    <!--noDeploy>true</noDeploy-->
+                </configuration>
             </plugin>
+        
         </plugins>
     </build>
 
